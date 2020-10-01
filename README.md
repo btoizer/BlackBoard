@@ -1,4 +1,4 @@
-# BlackBoard
+# Blackboard download of assignment files cleanup using R
 
 This is a function to process/clean assignment files which were uploaded by students and then downloaded into a zip file, using R. 
 
