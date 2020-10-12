@@ -118,8 +118,11 @@ for(i in 1:length(username_vec)){
 
 ########## Save summary file
 summary_file <- summary_file[-1,]
+summary_file <- summary_file[order(summary_file$`Last Name`),]
 write.csv(summary_file, "../output/*summary_file.csv")
 
 }
+
+
 
 
